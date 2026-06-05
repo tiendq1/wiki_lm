@@ -19,6 +19,7 @@
 
 - Khi người dùng nói task mobile mà không nói rõ project, cân nhắc `hdb_mfe_loan` trước.
 - Bản cũ của tính năng vay cầm cố STK từng làm bằng web React JS và nhúng vào WebView của native mobile.
+- Source webapp vay cầm cố STK: `/Users/atien/work/web/lending_uat_2026`.
 - Bản mới làm bằng React Native TypeScript, là miniapp cho tính năng vay, được view/host vào `hdb_host`.
 - Nếu cần scan/dò/run command để hiểu bug local, được phép làm theo rule trong `AGENTS.md`.
 - Nếu thao tác có rủi ro bảo mật, secret, dữ liệu nhạy cảm, network, upload, external API, hoặc rò rỉ thông tin ra ngoài, hỏi người dùng confirm trước.
@@ -31,6 +32,11 @@
 
 Khi làm task của project này, đọc tài liệu trong các folder trên trước nếu có.
 
+## Project index
+
+- `project-index.md`: source path, commands, scripts, module chính, flow màn hình, source files, và đối chiếu BRD.
+
 ## BRD đã nạp
 
 - `brd/vay-cam-co-stk-online-registration-web-brd.md`: digest BRD bản web cho phần đăng ký vay cầm cố sổ tiết kiệm online. Không bao gồm phần tất toán.
+- `technical-docs/brd-api-flow-business-rules.md`: tóm tắt từ BRD về API/integration được nhắc đến, flow vay hiện tại, và rule nghiệp vụ chính.

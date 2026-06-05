@@ -9,6 +9,7 @@ Mục tiêu: giúp agent đọc nhanh context ổn định thay vì phải đọ
 - `stable-memory.md`: thông tin ổn định về người dùng và cách làm việc.
 - `current-context.md`: ưu tiên hiện tại, project đang chú ý, trạng thái gần nhất.
 - `lessons-learned.md`: kinh nghiệm kỹ thuật/bài học từ lỗi và task đã làm.
+- `open-question.md`: điểm còn thiếu/chưa rõ, cần người dùng bổ sung hoặc cần scan thêm.
 
 ## Cách cập nhật
 
@@ -16,3 +17,4 @@ Mục tiêu: giúp agent đọc nhanh context ổn định thay vì phải đọ
 - Nếu thông tin chỉ đúng trong ngày, ghi vào `daily-report/` trước.
 - Nếu một pattern lặp lại hoặc có giá trị tái sử dụng, đưa vào `lessons-learned.md`.
 - Nếu ưu tiên project thay đổi, cập nhật `current-context.md`.
+- Nếu có điểm chưa rõ nhưng chưa chặn ngay, ghi vào `open-question.md`.

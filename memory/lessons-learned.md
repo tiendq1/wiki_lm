@@ -34,3 +34,21 @@ Cách xử lý đã dùng ở `hdb_host`:
   - Vai trò trong lỗi
   - Cách kiểm tra
 - Với fix bug, ghi command line và công dụng từng command vào `terminal/fixbug.md`.
+
+## Web / Security
+
+### Secret key encrypt body không được nằm trên FE
+
+- Task liên quan: `tasks/web/2026-06-05-pentest-secret-key-encrypt-body-fe.md`.
+- Lỗi đã ghi: `errors/security/2026-06-05-pentest-secret-key-encrypt-body-fe.md`.
+
+Kinh nghiệm:
+
+- Frontend là môi trường public/untrusted. Secret xuất hiện trong source, bundle, sourcemap, DevTools, hoặc runtime đều phải coi như đã lộ.
+- Encrypt body ở FE không có giá trị bảo mật mạnh nếu key encrypt cũng nằm trong FE.
+- Nếu cần bảo vệ payload:
+  - Đưa logic dùng secret về backend/service tin cậy.
+  - Dùng public-key flow nếu FE bắt buộc phải encrypt.
+  - Tránh key tĩnh dùng chung nhiều user/session.
+  - Rotate key đã từng bị expose.
+- Khi xử lý pentest dạng này, kiểm tra cả source, env build-time, production bundle, sourcemap, log, và request flow.

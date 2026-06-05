@@ -7,14 +7,20 @@
 ## Path
 
 ```text
-Chưa bổ sung.
+/Users/atien/work/app/hdb_mfe_od
 ```
+
+## Trạng thái
+
+- Người dùng không làm chính project này.
+- Chưa thu thập đủ tài liệu.
+- Người dùng sẽ bổ sung tài liệu sau.
 
 ## Ghi chú cần bổ sung
 
-- Path source code.
 - Stack riêng nếu khác profile chung.
 - Task/lỗi/decision quan trọng.
+- BRD/URD/technical docs nếu có.
 
 ## Tài liệu đầu vào
 

@@ -176,6 +176,12 @@ Sau khi khách hàng điền thông tin và xác nhận:
     - `Không thể lấy mã OTP. Vui lòng thử lại`.
 - Rule xác thực FPT eSign như hiện tại.
 
+Mapping sang bản React Native hiện tại:
+
+- BRD/web ReactJS: có màn hình nhập OTP riêng / màn hình xác thực ký số FPT.
+- Mobile React Native: chỉ dùng popup/bottom sheet nhập OTP.
+- Đây là khác biệt do design web WebView cũ và design mobile React Native mới khác nhau; không coi là conflict khi đối chiếu BRD với source mobile.
+
 ### 7. Đăng ký vay thành công
 
 Điều chỉnh màn hình gửi yêu cầu vay thành công:
