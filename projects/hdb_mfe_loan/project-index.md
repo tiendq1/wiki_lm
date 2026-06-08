@@ -9,6 +9,7 @@
 - Wiki path: `/Users/atien/AI/WikiLLM/projects/hdb_mfe_loan`.
 - Source path React Native miniapp: `/Users/atien/work/app/hdb_mfe_loan`.
 - Source path webapp vay cầm cố STK: `/Users/atien/work/web/lending_uat_2026`.
+- Endpoint group webapp vay cầm cố STK: `/api-dl/*`.
 - Host project: `hdb_host`.
 - Host path: `/Users/atien/work/app/hdb_host`.
 
@@ -222,6 +223,10 @@ BRD có mô tả các phần liên quan:
   - `technical-docs/postman-webapp-digital-lending-api-index.md`
   - Nguồn: `documents/Webapp Digital Lending - Pentest.postman_collection.json`
   - Scope: index endpoint đã redact secret/token/API key.
+- Error message map:
+  - `technical-docs/error-message-map.md`
+  - Nguồn: `documents/errorMessage.json`
+  - Scope: error code/message cho Digital Lending.
 
 ## Tài liệu chưa nạp / chưa có
 

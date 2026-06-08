@@ -55,6 +55,7 @@ Base cũ thường thấy:
 
 - Local: `localhost:8082/api/v1`
 - UAT: `https://digital-lending-uat.hdbank.com.vn/api-dl`
+- Người dùng đã confirm source webapp vay cầm cố STK đang dùng endpoint group: `/api-dl/*`.
 
 Endpoint archived đáng chú ý:
 
@@ -142,5 +143,5 @@ Các endpoint đáng chú ý:
 ## Điểm cần nhớ
 
 - Postman có cả flow mới `/api/lending/v1/*` và flow archived `/api/v1/*` hoặc `/api-dl/*`.
-- Khi debug source webapp `/Users/atien/work/web/lending_uat_2026`, cần xác định source đang dùng nhóm endpoint nào.
+- Khi debug source webapp `/Users/atien/work/web/lending_uat_2026`, ưu tiên kiểm tra flow `/api-dl/*` trước.
 - Không đưa raw Postman collection lên nơi bên ngoài vì có secret/token/API key.

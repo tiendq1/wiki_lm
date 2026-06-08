@@ -7,6 +7,7 @@
 - Công việc chính hiện tại: tính năng vay cầm cố bằng sổ tiết kiệm.
 - Bản cũ: web React JS, nhúng vào WebView của native mobile.
 - Source bản web vay cầm cố STK: `/Users/atien/work/web/lending_uat_2026`.
+- Endpoint group bản web vay cầm cố STK: `/api-dl/*`.
 - Bản mới: React Native TypeScript miniapp, được view/host vào `hdb_host`.
 
 ## Project đang theo dõi
@@ -50,6 +51,9 @@
 - `projects/hdb_mfe_loan/technical-docs/postman-webapp-digital-lending-api-index.md`
   - Nguồn: `documents/Webapp Digital Lending - Pentest.postman_collection.json`
   - Nội dung: index API Postman đã redact secret/token/API key.
+- `projects/hdb_mfe_loan/technical-docs/error-message-map.md`
+  - Nguồn: `documents/errorMessage.json`
+  - Nội dung: error code/message cho Digital Lending.
 - Lưu ý bảo mật: Postman collection có secret/token/API key, không copy raw value vào wiki/chat/log.
 
 ## Open questions
