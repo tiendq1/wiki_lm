@@ -34,6 +34,10 @@ Cách xử lý đã dùng ở `hdb_host`:
   - Vai trò trong lỗi
   - Cách kiểm tra
 - Với fix bug, ghi command line và công dụng từng command vào `terminal/fixbug.md`.
+- Khi nạp Postman collection hoặc tài liệu kỹ thuật có token/API key/client secret:
+  - Không copy raw secret vào wiki/chat/log.
+  - Chỉ ghi tên header, endpoint, data keys, và note đã redact.
+  - Nếu cần chia sẻ ra ngoài, phải redact trước.
 
 ## Web / Security
 

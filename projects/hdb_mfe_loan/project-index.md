@@ -207,15 +207,26 @@ BRD có mô tả các phần liên quan:
   - `brd/vay-cam-co-stk-online-registration-web-brd.md`
   - Scope: đăng ký vay cầm cố STK.
   - Không bao gồm tất toán.
+- BRD MB02:
+  - `brd/mb02-brd-nang-hm-vay-cc-stk-online.md`
+  - Nguồn: `documents/MB02-BRD NANG HM VAY CC STK ONLINE (HDB VNP).docx`
+  - Scope: BRD bản docx, có một số điểm cần đối chiếu với digest PDF cũ.
 - Technical digest từ BRD:
   - `technical-docs/brd-api-flow-business-rules.md`
   - Scope: API/integration được nhắc trong BRD, flow vay hiện tại, rule nghiệp vụ.
+- Technical spec MB03:
+  - `technical-docs/mb03-digital-lending-technical-spec.md`
+  - Nguồn: `documents/MB03 - Phieu_Dac_Ta_Ky_Thuat_Digital_Lending_EDIT.docx`
+  - Scope: kiến trúc WebApp/GWDL/ESB/FPT, flow kỹ thuật, API fields, JWT/AES flow.
+- Postman API index:
+  - `technical-docs/postman-webapp-digital-lending-api-index.md`
+  - Nguồn: `documents/Webapp Digital Lending - Pentest.postman_collection.json`
+  - Scope: index endpoint đã redact secret/token/API key.
 
 ## Tài liệu chưa nạp / chưa có
 
 - URD riêng cho bản React Native TypeScript.
 - Technical docs riêng cho host integration với `hdb_host`.
-- API docs chi tiết dạng endpoint/request/response cho module vay cầm cố STK.
 - Thiết kế UI/prototype nếu có.
 - Các điểm còn thiếu đang được gom ở `memory/open-question.md`.
 

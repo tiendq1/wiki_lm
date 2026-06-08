@@ -27,7 +27,9 @@
 ## BRD đã nạp
 
 - `projects/hdb_mfe_loan/brd/vay-cam-co-stk-online-registration-web-brd.md`
+- `projects/hdb_mfe_loan/brd/mb02-brd-nang-hm-vay-cc-stk-online.md`
 - Nguồn: `documents/BRD NANG HM VAY CC STK ONLINE (HDB VNP).pdf`
+- Nguồn mới: `documents/MB02-BRD NANG HM VAY CC STK ONLINE (HDB VNP).docx`
 - Phạm vi nạp: đăng ký vay cầm cố sổ tiết kiệm.
 - Không nạp hiện tại: tất toán khoản vay.
 - Lưu ý mapping OTP:
@@ -39,6 +41,16 @@
 
 - `projects/hdb_mfe_loan/project-index.md`
 - Nội dung: source path, package scripts, command chạy/build/test, module vay cầm cố STK, flow màn hình chính, source files, đối chiếu BRD.
+
+## Technical docs đã nạp
+
+- `projects/hdb_mfe_loan/technical-docs/mb03-digital-lending-technical-spec.md`
+  - Nguồn: `documents/MB03 - Phieu_Dac_Ta_Ky_Thuat_Digital_Lending_EDIT.docx`
+  - Nội dung: kiến trúc WebApp/GWDL/ESB/FPT, flow kỹ thuật, API fields, JWT/AES flow.
+- `projects/hdb_mfe_loan/technical-docs/postman-webapp-digital-lending-api-index.md`
+  - Nguồn: `documents/Webapp Digital Lending - Pentest.postman_collection.json`
+  - Nội dung: index API Postman đã redact secret/token/API key.
+- Lưu ý bảo mật: Postman collection có secret/token/API key, không copy raw value vào wiki/chat/log.
 
 ## Open questions
 
